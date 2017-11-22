@@ -45,3 +45,30 @@ table {
 }
 
 /* FIM DO RESET*/
+
+/* Inicio flexible-plataform */
+.flexible-plataform{
+	background: #f4f4f6;
+	text-align: center;
+	color: gray;
+	padding: 10px 15%;
+	box-sizing: border-box;
+}
+.flexible-plataform__titulo{
+	color: black;
+	padding: 5px 0;
+	box-sizing: border-box;
+	font-size: 22px;
+}
+.flexible-plataform__texto{
+	padding: 5px 0;
+	box-sizing: border-box;
+}
+.flexible-plataform__input{
+	margin: 10px 0;
+	box-sizing: border-box;
+}
+.flexible-plataform__botao{
+	background: #50d67b;
+}
+/* Fim flexible-plataform */
