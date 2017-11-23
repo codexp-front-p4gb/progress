@@ -50,7 +50,7 @@ table {
 
 /*inicio do codigo */
 
-.feature__track{
+.feature__principal{
 	font-family: Arial, Helvetica, sans-serif;
 	color: gray;
 	text-align: center;
@@ -63,8 +63,9 @@ table {
 	padding: 10px;
 	color: black;
 	margin: 10px;
+	
 }
-.feature__track_paragrafo{
+.feature__track_paragrafo {
 	margin: 0 40px;
 }
 .feature__track_image{
@@ -73,4 +74,25 @@ table {
 .feature__track_image img{
 	width:50%;
 	
+}
+@media (min-width: 768px){
+	.feature__track_image{
+		float: left;
+		}
+
+	.feature__track_article_first, .feature__track_article_second{
+		display:absolut;
+		float: right;
+		width: 50%;
+	}
+	.feature__track_article_third{
+	
+		clear: both;
+		width: 50%;
+	}
+	.feature__track_second_image{
+		float: right;
+		width: 40%;
+		margin-top: 10%;
+	}
 }
