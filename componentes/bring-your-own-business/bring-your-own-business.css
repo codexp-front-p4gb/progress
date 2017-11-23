@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width:100%;
+    background: #f4f4f6;
+}
+
+.Bring-your-own-business{
+    display: flex;
+    width: 60%;
+
+}
+
+.Bring-your-own-business__title{
+    text-align: center;
+
+}
+
+.Bring-your-own-business__img{
+    display: block;
+    width: 50px;
+       
+
+}
+
+.Bring-your-own-business__img__car{
+    width: 80px;
+}
