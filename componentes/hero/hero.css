@@ -47,6 +47,12 @@ h1, figure, img, article, section,th,td,table {
     object-fit: contain;
 }
 
+.teste{
+    display:flex;
+    padding-top: 10%;
+    justify-content: center;
+}
+
 /* Inicio estilo tablet 1 */
 @media(min-width: 768px){
     
