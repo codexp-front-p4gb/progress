@@ -53,7 +53,8 @@ table {
 .feature__principal{
 	font-family: Arial, Helvetica, sans-serif;
 	color: gray;
-	text-align: center;
+	text-align: justify;
+	margin: 20px;
 	}
 
 .feature__track__title{
@@ -63,6 +64,7 @@ table {
 	padding: 10px;
 	color: black;
 	margin: 10px;
+	text-align: center;
 	
 }
 .feature__track_paragrafo {
@@ -70,6 +72,7 @@ table {
 }
 .feature__track_image{
 	margin: 20px 20px;
+	
 }
 .feature__track_image img{
 	width:50%;
@@ -79,6 +82,11 @@ table {
 	.feature__track_image{
 		float: left;
 		}
+
+	.feature__track_paragrafo {
+	margin: 0 40px 10px 0;
+	
+	}
 
 	.feature__track_article_first, .feature__track_article_second{
 		display:absolut;
@@ -93,6 +101,6 @@ table {
 	.feature__track_second_image{
 		float: right;
 		width: 40%;
-		margin-top: 10%;
+		margin-top: 18%;
 	}
 }
