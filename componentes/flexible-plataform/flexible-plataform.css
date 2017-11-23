@@ -67,8 +67,18 @@ table {
 .flexible-plataform__input{
 	margin: 10px 0;
 	box-sizing: border-box;
+	border: none;
+	border-radius: 10px 0 0 10px;
+	height: 40px;
+	box-shadow: inset 0 0 1px rgb(195, 195, 195);
 }
 .flexible-plataform__botao{
 	background: #50d67b;
+	border: none;
+	border-radius: 0 10px 10px 0;
+	height: 40px;
+	position: relative;
+	left: -5px;
+	color: white;
 }
 /* Fim flexible-plataform */
