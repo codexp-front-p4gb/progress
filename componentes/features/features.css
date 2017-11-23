@@ -51,12 +51,9 @@ table {
 /*inicio do codigo */
 
 .feature__track{
-	display: flex;
-	flex-direction: column;
 	font-family: Arial, Helvetica, sans-serif;
-	padding: 10%;
 	color: gray;
-	
+	text-align: center;
 	}
 
 .feature__track__title{
@@ -65,10 +62,10 @@ table {
 	margin-bottom: 10px;
 	padding: 10px;
 	color: black;
-	margin: 0 10%;
+	margin: 10px;
 }
 .feature__track_paragrafo{
-	margin: 0 20px;
+	margin: 0 40px;
 }
 .feature__track_image{
 	margin: 20px 20px;
