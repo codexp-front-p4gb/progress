@@ -38,7 +38,6 @@ h1, figure, img, article, section,th,td,table {
     text-align: center;
     line-height:25px;
     margin: 0;
-    padding-bottom: 10%;
 }
 
 .hero__celphone{
@@ -63,5 +62,6 @@ h1, figure, img, article, section,th,td,table {
 
 .hero__logo{
     position: absolute;
+}
 }
 
